@@ -31,7 +31,7 @@ _get_repolink () {
     then
         rlink=`echo "${UPSTREAM_REPO}"`
     else
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1plZC1UaG9uL1plbFphbA==" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1RlcHRob25lZS9QUEYyMg==" | base64 -d`
     fi
     echo "$rlink"
 }
