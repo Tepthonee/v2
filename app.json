@@ -54,6 +54,12 @@
       "value": "Asia/Baghdad",
       "required": false
     }
+    },
+    "UPSTREAM_REPO": {
+      "description": "لا تقم بتغييره",
+      "value": "https://github.com/Tepthonee/PPF22",
+      "required": false
+    }
   },
   "addons": [{
     "plan": "heroku-postgresql",
